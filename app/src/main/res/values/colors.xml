@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="rosa_pastel">#FFC0CB</color>
+    <color name="azul_bebe">#A3C1DA</color>
+    <color name="lavanda">#E6E6FA</color>
+    <color name="menta">#B2E0D8</color>
+    <color name="durazno">#FFDAB9</color>
+    <color name="amarillo_suave">#FFFACD</color>
+    <color name="gris_claro">#D3D3D3</color>
+    <color name="coral_claro">#FF7F50</color>
+    <color name="menta_pastel">#C5E4D7</color>
+    <color name="beige_claro">#F5F5DC</color>
+    <color name="negro">#000000</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="rojo">#ff0000</color>
+
+</resources>

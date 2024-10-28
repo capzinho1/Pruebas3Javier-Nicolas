@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="dato1" type="id" />
+    <item name="dato2" type="id" />
+    <item name="dato3" type="id" />
+    <item name="dato4" type="id" />
+    <item name="buttonProcesar" type="id" />
+    <item name="main" type="id" />
+    <item name="custom_toast_container" type="id" />
+</resources>

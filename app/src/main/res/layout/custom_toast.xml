@@ -1,0 +1,23 @@
+<!-- res/layout/custom_toast.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_toast_background"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:src="@drawable/ic_warning" />
+
+    <TextView
+        android:id="@+id/custom_toast_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Mensaje personalizado"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="16sp" />
+</LinearLayout>
