@@ -18,6 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
+        <!-- Header and other content -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="77dp"
@@ -45,6 +46,7 @@
                 android:src="@drawable/user" />
         </LinearLayout>
 
+        <!-- Parametro monitores and EditText fields -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -137,6 +139,7 @@
             android:layout_marginTop="16dp"
             android:layout_gravity="center" />
 
+        <!-- Bottom Navigation Layout -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="80dp"

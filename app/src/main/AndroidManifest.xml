@@ -12,19 +12,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Prueba2JavierNicolas"
         tools:targetApi="31">
+
+        <!-- Actividades ya existentes -->
         <activity android:name=".LoginActivity" />
         <activity android:name=".CuartaVistaActivity" />
         <activity android:name=".QuintaVistaActivity" />
         <activity android:name=".TerceraVistaActivity" />
+
+        <!-- Actividad MainActivity con el filtro de intentos para ser la actividad principal -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Nueva actividad de registro -->
+        <activity android:name=".RegistroActivity" />
+
     </application>
 
 </manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextUsuario" type="id" />
+    <item name="editTextContrasena" type="id" />
+    <item name="botonIniciarSesion" type="id" />
+</resources>

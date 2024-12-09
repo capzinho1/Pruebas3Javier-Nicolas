@@ -46,4 +46,6 @@
     <string name="_04_00_pm">04:00 PM</string>
     <string name="frecuencia_76">Frecuencia: 76</string>
     <string name="saturation_99">Saturation: 99</string>
+    <string name="volver">Volver</string>
+
 </resources>

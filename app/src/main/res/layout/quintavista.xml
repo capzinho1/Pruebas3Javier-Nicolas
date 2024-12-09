@@ -1,3 +1,4 @@
+<!-- ConstraintLayout es el contenedor principal que permite ubicar los elementos con restricciones -->
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -7,6 +8,7 @@
     android:background="@drawable/medicina"
     tools:context=".MainActivity">
 
+    <!-- LinearLayout que contiene el título y un icono de usuario en horizontal -->
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="385dp"
@@ -20,6 +22,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <!-- TextView que muestra el texto de la aplicación -->
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -29,6 +32,7 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
+        <!-- ImageButton que muestra el icono del usuario -->
         <ImageButton
             android:id="@+id/tvLogo"
             android:layout_width="49dp"
@@ -39,6 +43,7 @@
             android:src="@drawable/user" />
     </LinearLayout>
 
+    <!-- Botón que activa la acción para mostrar las instrucciones -->
     <Button
         android:id="@+id/btnInstructions"
         android:layout_width="wrap_content"
@@ -48,6 +53,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
 
+    <!-- ScrollView que permite desplazarse por las instrucciones si son largas -->
     <ScrollView
         android:id="@+id/scrollInstructions"
         android:layout_width="362dp"
@@ -60,12 +66,14 @@
         app:layout_constraintTop_toBottomOf="@id/btnInstructions"
         app:layout_constraintVertical_bias="1.0">
 
+        <!-- LinearLayout que contiene los elementos de texto (las instrucciones) -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="16dp">
 
+            <!-- TextViews que contienen las instrucciones a mostrar en la pantalla -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -107,6 +115,7 @@
         </LinearLayout>
     </ScrollView>
 
+    <!-- ImageButton para navegar hacia atrás (volver) -->
     <ImageButton
         android:id="@+id/botonVolver"
         android:layout_width="98dp"

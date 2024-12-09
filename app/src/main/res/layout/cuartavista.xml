@@ -8,6 +8,7 @@
     android:background="@drawable/medicina"
     android:gravity="top">
 
+    <!-- Barra superior con título y botón de usuario -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,6 +16,7 @@
         android:background="@color/rosa_pastel"
         android:padding="8dp">
 
+        <!-- Título de la aplicación (saludlife) -->
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -25,6 +27,7 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
+        <!-- Botón de imagen (logo de usuario) -->
         <ImageButton
             android:id="@+id/tvLogo"
             android:layout_width="49dp"
@@ -36,7 +39,7 @@
 
     </LinearLayout>
 
-
+    <!-- CardView que muestra información sobre saturación -->
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,6 +49,7 @@
         app:cardElevation="4dp"
         android:background="@color/blanco">
 
+        <!-- Contenido dentro de la CardView de saturación -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,6 +57,7 @@
             android:padding="16dp"
             android:gravity="center">
 
+            <!-- Título de la saturación -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -60,6 +65,7 @@
                 android:textSize="18sp"
                 android:textColor="@color/negro"/>
 
+            <!-- Valor de saturación -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -69,6 +75,7 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
+    <!-- CardView que muestra información sobre la frecuencia -->
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -78,6 +85,7 @@
         app:cardElevation="4dp"
         android:background="@color/blanco">
 
+        <!-- Contenido dentro de la CardView de frecuencia -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -85,6 +93,7 @@
             android:padding="16dp"
             android:gravity="center">
 
+            <!-- Título de la frecuencia -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -92,6 +101,7 @@
                 android:textSize="18sp"
                 android:textColor="@color/negro"/>
 
+            <!-- Valor de frecuencia -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -101,17 +111,16 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
+    <!-- Botón para obtener más información -->
     <Button
         android:id="@+id/btnInstructions"
         android:layout_width="315dp"
         android:layout_height="76dp"
         android:layout_gravity="center"
         android:layout_marginTop="60dp"
-        android:text="@string/obtener"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+        android:text="@string/obtener" />
 
+    <!-- Botón de imagen para volver -->
     <ImageButton
         android:id="@+id/botonVolver"
         android:layout_width="126dp"
@@ -119,8 +128,6 @@
         android:layout_gravity="center"
         android:background="?attr/selectableItemBackgroundBorderless"
         android:contentDescription="@string/voler"
-        android:src="@drawable/back"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:src="@drawable/back" />
 
 </LinearLayout>

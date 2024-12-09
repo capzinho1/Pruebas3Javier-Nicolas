@@ -1,4 +1,4 @@
-<!-- res/layout/custom_toast.xml -->
+<!-- LinearLayout que organiza los elementos de forma horizontal -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -6,12 +6,13 @@
     android:orientation="horizontal"
     android:padding="12dp">
 
+    <!-- ImageView que muestra el icono de advertencia -->
     <ImageView
         android:layout_width="30dp"
         android:layout_height="30dp"
-
         android:src="@drawable/ic_warning" />
 
+    <!-- TextView que muestra el mensaje del Toast -->
     <TextView
         android:id="@+id/custom_toast_text"
         android:layout_width="wrap_content"
